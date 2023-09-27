@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  display: grid;  
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+}
+.logo {
+  grid-column: span 5;
+  justify-content: center ;
+}

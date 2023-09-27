@@ -1,0 +1,22 @@
+.medidor-page {
+  display: grid;  
+  padding: 1rem;
+  gap: 2rem;
+  grid-column: span 5;
+}
+.medidor-page__date-control {
+  display: flex;  
+}
+.medidor-page__date-control * {
+  margin-right: 1rem;
+}
+.medidor-page__date-control i {
+  margin-right: 0.2rem;
+}
+.medidor-page__date-control a {
+  text-decoration: none;  
+}
+.medidor-page__date-control a:hover {
+  color: teal;
+  cursor: pointer;
+}

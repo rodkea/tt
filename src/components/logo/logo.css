@@ -1,0 +1,12 @@
+.logo {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+}
+.logo img {
+  width: 15rem;
+  height: auto;
+}
+.logo h1 {
+  color: teal;
+}

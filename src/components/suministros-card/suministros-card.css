@@ -1,0 +1,30 @@
+.suministros-card {
+  display: flex;
+  flex-direction: column;
+  background-color: teal;
+  border-radius: 0.5rem;
+  border-color: #FFF;
+  padding: 1rem 0.5rem ;
+  justify-content: space-between;      
+  text-decoration: none;
+}
+.suministros-card:hover {
+  cursor: pointer;
+  background-color: rgb(0, 110, 110);
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+
+.suministros-card h2 {
+  background-color: #000;
+  color: #FFF;
+  border-radius: 0.25rem;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+}
+.suministros-card h3 {
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+}
